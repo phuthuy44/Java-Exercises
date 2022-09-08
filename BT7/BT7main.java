@@ -15,9 +15,9 @@ public class BT7main {
         }
 
         BT7node node2= stack.pop();
-        if(node!=null){
+        if(node2!=null){
             System.out.println("=>Pop:");
-            node.printData();
+            node2.printData();
         }
         stack.print();
     }
